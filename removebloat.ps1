@@ -22,7 +22,7 @@ $AppsList = 'Microsoft.3DBuilder',
 'Microsoft.Zune'
 'Microsoft.Facebook'
 'Microsoft.Twitter'
-'Microsoft.OneNote'
+'Microsoft.Office.OneNote'
 
 ForEach ($App in $AppsList){
     $PackageFullName = (Get-AppxPackage $App).PackageFullName
