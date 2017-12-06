@@ -14,14 +14,14 @@ $AppsList = 'Microsoft.3DBuilder',
 'Microsoft.Getstarted', 
 'Microsoft.WindowsFeedbackHub',
 'Microsoft.XboxIdentityProvider', 
-'Microsoft.MicrosoftOfficeHub'
-'Microsoft.WindowsMaps'
-'Microsoft.WindowsAlarms'
-'Microsoft.bing'
-'Microsoft.SkypeApp'
-'Microsoft.Zune'
-'Microsoft.Facebook'
-'Microsoft.Twitter'
+'Microsoft.MicrosoftOfficeHub',
+'Microsoft.WindowsMaps',
+'Microsoft.WindowsAlarms',
+'Microsoft.Bing',
+'Microsoft.SkypeApp',
+'Microsoft.Zune',
+'Microsoft.Facebook',
+'Microsoft.Twitter',
 'Microsoft.Office.OneNote'
 
 ForEach ($App in $AppsList){
